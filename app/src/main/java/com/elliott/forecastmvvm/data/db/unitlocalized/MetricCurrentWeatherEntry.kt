@@ -2,7 +2,7 @@ package com.elliott.forecastmvvm.data.db.unitlocalized
 
 import androidx.room.ColumnInfo
 
-class MetricCurrentWeatherEntry(
+data class MetricCurrentWeatherEntry(
     @ColumnInfo(name = "tempC")
     override val temperature: Double,
     @ColumnInfo(name = "condition_text")

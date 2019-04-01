@@ -10,6 +10,7 @@ const val CURRENT_WEATHER_ID = 0
 @Entity(tableName = "current_weather")
 
 data class CurrentWeatherEntry(
+//    Since the table can only have primitive types, we add @Embedded with a prefix so it accesses the custom classes's variables
     @Embedded(prefix = "condition_")
     val condition: Condition,
     @SerializedName("feelslike_c")

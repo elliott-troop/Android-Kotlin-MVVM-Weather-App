@@ -2,7 +2,10 @@ package com.elliott.forecastmvvm.data.db.unitlocalized
 
 import androidx.room.ColumnInfo
 
-class ImperialCurrentWeatherEntry(
+// Implements the interface UnitSpecificCurrentWeatherEntry
+data class ImperialCurrentWeatherEntry(
+
+//    each @ColumnInfo tells this class what's the name of the property coming from the CurrentWeatherEntry
     @ColumnInfo(name = "tempF")
     override val temperature: Double,
     @ColumnInfo(name = "condition_text")
