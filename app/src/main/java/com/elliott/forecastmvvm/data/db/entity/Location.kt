@@ -1,4 +1,4 @@
-package com.elliott.forecastmvvm.data.response
+package com.elliott.forecastmvvm.data.db.entity
 
 import com.google.gson.annotations.SerializedName
 

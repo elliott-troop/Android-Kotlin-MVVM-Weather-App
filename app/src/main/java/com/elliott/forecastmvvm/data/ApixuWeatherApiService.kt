@@ -1,6 +1,6 @@
 package com.elliott.forecastmvvm.data
 
-import com.elliott.forecastmvvm.data.response.CurrentWeatherResponse
+import com.elliott.forecastmvvm.data.db.network.response.CurrentWeatherResponse
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
